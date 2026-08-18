@@ -89,21 +89,21 @@ The purpose of the badge is to set expectations: it tells a prospective user whe
 There are three statuses:
 
 ### Maintained
-[![BioJulia - Maintained](https://raw.githubusercontent.com/rasmushenningsson/biojulia.github.io/badges/badges/biojulia-maintained.svg)](https://biojulia.dev/)
+[![BioJulia - Maintained](https://raw.githubusercontent.com/BioJulia/biojulia.github.io/main/badges/biojulia-maintained.svg)](https://biojulia.dev/)
 
 At least one person considers themselves an active maintainer of the package.
 A user can expect their issues and pull requests to be answered.
 The badge links to the [BioJulia website](https://biojulia.dev/).
 
 ### Functional; Maintainer needed
-[![BioJulia - Functional; Maintainer needed](https://raw.githubusercontent.com/rasmushenningsson/biojulia.github.io/badges/badges/biojulia-functional-maintainer-needed.svg)](https://github.com/BioJulia/Contributing/blob/master/CONTRIBUTING.md)
+[![BioJulia - Functional; Maintainer needed](https://raw.githubusercontent.com/BioJulia/biojulia.github.io/main/badges/biojulia-functional-maintainer-needed.svg)](https://github.com/BioJulia/Contributing/blob/master/CONTRIBUTING.md)
 
 The package is expected to work, but we are searching for a maintainer.
 A user cannot be sure that issues and pull requests will be answered, especially more technical ones.
 The badge links to these guidelines, since someone clicking it may be interested in maintaining the package.
 
 ### Deprecated
-[![BioJulia - Deprecated](https://raw.githubusercontent.com/rasmushenningsson/biojulia.github.io/badges/badges/biojulia-deprecated.svg)](https://biojulia.dev/)
+[![BioJulia - Deprecated](https://raw.githubusercontent.com/BioJulia/biojulia.github.io/main/badges/biojulia-deprecated.svg)](https://biojulia.dev/)
 
 The package is no longer recommended, either because it does not work on recent Julia releases, or because it has been superseded by other Julia packages.
 If the package has been superseded, we recommend that its README names the package that replaced it.
