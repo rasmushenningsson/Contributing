@@ -85,6 +85,7 @@ If the BioJulia admins agree to transfer your repo to BioJulia, we will collabor
 ## Package maintenance status
 We recommend that every BioJulia package carries a badge at the top of its README, stating how actively the package is maintained.
 The purpose of the badge is to set expectations: it tells a prospective user whether they can rely on the package, and whether they can expect a response if they open an issue.
+In the future, we may also use the badges to aggregate and promote packages in the BioJulia ecosystem, making them easier to discover.
 
 There are three statuses:
 
@@ -93,21 +94,31 @@ There are three statuses:
 
 At least one person considers themselves an active maintainer of the package.
 A user can expect their issues and pull requests to be answered.
-The badge links to the [BioJulia website](https://biojulia.dev/).
+
+```markdown
+[![BioJulia - Maintained](https://raw.githubusercontent.com/BioJulia/biojulia.github.io/main/badges/biojulia-maintained.svg)](https://biojulia.dev/)
+```
 
 ### Functional; Maintainer needed
-[![BioJulia - Functional; Maintainer needed](https://raw.githubusercontent.com/BioJulia/biojulia.github.io/main/badges/biojulia-functional-maintainer-needed.svg)](https://github.com/BioJulia/Contributing/blob/master/CONTRIBUTING.md)
+[![BioJulia - Functional; Maintainer needed](https://raw.githubusercontent.com/BioJulia/biojulia.github.io/main/badges/biojulia-functional-maintainer-needed.svg)](https://github.com/BioJulia/Contributing/blob/master/CONTRIBUTING.md#becoming-a-package-maintainer)
 
 The package is expected to work, but we are searching for a maintainer.
 A user cannot be sure that issues and pull requests will be answered, especially more technical ones.
-The badge links to these guidelines, since someone clicking it may be interested in maintaining the package.
+The badge links to [Becoming a package maintainer](#becoming-a-package-maintainer), since someone clicking it may be interested in maintaining the package.
+
+```markdown
+[![BioJulia - Functional; Maintainer needed](https://raw.githubusercontent.com/BioJulia/biojulia.github.io/main/badges/biojulia-functional-maintainer-needed.svg)](https://github.com/BioJulia/Contributing/blob/master/CONTRIBUTING.md#becoming-a-package-maintainer)
+```
 
 ### Deprecated
 [![BioJulia - Deprecated](https://raw.githubusercontent.com/BioJulia/biojulia.github.io/main/badges/biojulia-deprecated.svg)](https://biojulia.dev/)
 
 The package is no longer recommended, either because it does not work on recent Julia releases, or because it has been superseded by other Julia packages.
 If the package has been superseded, we recommend that its README names the package that replaced it.
-The badge links to the [BioJulia website](https://biojulia.dev/).
+
+```markdown
+[![BioJulia - Deprecated](https://raw.githubusercontent.com/BioJulia/biojulia.github.io/main/badges/biojulia-deprecated.svg)](https://biojulia.dev/)
+```
 
 ### Using the badges
 Copy the markdown for the status that applies, and place it at the top of your package's README, alongside the CI and documentation badges.
@@ -127,4 +138,4 @@ If no maintainer responds:
 If a maintainer later reappears, the status can always be changed back.
 
 It is not possible to write down rules that cover every case, so please try to work it out in the spirit of the descriptions above.
-If there is disagreement, the decision of the admins of the organisation the repository belongs to should be followed, together with the BioJulia admins if the repository is outside BioJulia.
+If there is disagreement, the decision should be taken by the admins of the organisation the repository belongs to, together with the BioJulia admins if the repository is outside BioJulia.
