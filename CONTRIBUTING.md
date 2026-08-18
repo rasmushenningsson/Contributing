@@ -9,6 +9,7 @@ This document contains information relevant to people who want to contribute to 
 * [Making a pull request](#making-a-pull-request)
 * [Becoming a package maintainer](#becoming-a-package-maintainer)
 * [Creating a new repository under BioJulia](#creating-a-new-biojulia-repository)
+* [Package maintenance status](#package-maintenance-status)
 
 ## Contact information
 If you have questions about specific repositories, contact the repository maintainers.
@@ -80,3 +81,47 @@ This implies:
 * Other BioJulia members may be added as maintainers if you become unreachable.
 
 If the BioJulia admins agree to transfer your repo to BioJulia, we will collaborate with you to ensure the code quality, code licensing, documentation, and continuous integration of the package is up to BioJulia standards.
+
+## Package maintenance status
+BioJulia packages carry a badge in their README stating how actively the package is maintained.
+The purpose of the badge is to set expectations: it tells a prospective user whether they can rely on the package, and whether they can expect a response if they open an issue.
+
+There are three statuses:
+
+### Maintained
+<!-- badge markdown TBD -->
+
+At least one person considers themselves an active maintainer of the package.
+A user can expect their issues and pull requests to be answered.
+
+### Functional; Maintainer needed
+<!-- badge markdown TBD -->
+
+The package is expected to work, but is currently looking for a maintainer.
+A user cannot be sure that issues and pull requests will be answered, in particular not the more technical ones.
+
+### Deprecated
+<!-- badge markdown TBD -->
+
+The package is no longer modern, either because it does not work on recent Julia releases, or because it has been superseded by other Julia packages.
+New users should generally look elsewhere.
+
+### Using the badges
+To use a badge, place it near the top of your package's README, and copy the markdown for the status that applies.
+
+To be eligible for a badge, the repository must live in the [BioJulia](https://github.com/BioJulia), [JuliaHealth](https://github.com/JuliaHealth) or [EcoJulia](https://github.com/EcoJulia) GitHub organization, or in another GitHub organization approved by the BioJulia admins — for example a lab organization.
+Personal repositories are not eligible.
+This is so that the status can be updated by someone else if the maintainer becomes unreachable, for whatever reason.
+
+### Changing the status of a package
+Anyone can propose a status change by opening an issue or a pull request on the repository in question.
+If a maintainer is around, the change is simply theirs to make.
+
+If no maintainer responds:
+* After roughly **one month** of no response, the status may be changed if there is a compelling reason to do so.
+* After **six months** of no response, the status may be changed without any particular reason.
+
+If a maintainer later reappears, the status can always be changed back.
+
+It is not possible to write down rules that cover every case, so please try to work it out in the spirit of the descriptions above.
+If there is disagreement, the decision of the admins of the organization the repository belongs to should be followed, together with the [BioJulia admins](#contact-information) if the repository is outside BioJulia.
