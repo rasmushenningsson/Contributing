@@ -89,26 +89,28 @@ The purpose of the badge is to set expectations: it tells a prospective user whe
 There are three statuses:
 
 ### Maintained
-<!-- badge markdown TBD -->
+[![BioJulia - Maintained](https://raw.githubusercontent.com/rasmushenningsson/biojulia.github.io/badges/badges/biojulia-maintained.svg)](https://biojulia.dev/)
 
 At least one person considers themselves an active maintainer of the package.
 A user can expect their issues and pull requests to be answered.
+The badge links to the [BioJulia website](https://biojulia.dev/).
 
 ### Functional; Maintainer needed
-<!-- badge markdown TBD -->
+[![BioJulia - Functional; Maintainer needed](https://raw.githubusercontent.com/rasmushenningsson/biojulia.github.io/badges/badges/biojulia-functional-maintainer-needed.svg)](https://github.com/BioJulia/Contributing/blob/master/CONTRIBUTING.md)
 
 The package is expected to work, but we are searching for a maintainer.
 A user cannot be sure that issues and pull requests will be answered, especially more technical ones.
+The badge links to these guidelines, since someone clicking it may be interested in maintaining the package.
 
 ### Deprecated
-<!-- badge markdown TBD -->
+[![BioJulia - Deprecated](https://raw.githubusercontent.com/rasmushenningsson/biojulia.github.io/badges/badges/biojulia-deprecated.svg)](https://biojulia.dev/)
 
 The package is no longer recommended, either because it does not work on recent Julia releases, or because it has been superseded by other Julia packages.
 If the package has been superseded, we recommend that its README names the package that replaced it.
+The badge links to the [BioJulia website](https://biojulia.dev/).
 
 ### Using the badges
 Copy the markdown for the status that applies, and place it at the top of your package's README, alongside the CI and documentation badges.
-Each badge links to information on what the status means and how to contribute.
 
 To be eligible for a badge, the repository must live in the [BioJulia](https://github.com/BioJulia), [JuliaHealth](https://github.com/JuliaHealth) or [EcoJulia](https://github.com/EcoJulia) GitHub organisation, or in another GitHub organisation approved by [the BioJulia admins](#contact-information), for example a lab organisation.
 Personal repositories are not eligible.
