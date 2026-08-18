@@ -83,7 +83,7 @@ This implies:
 If the BioJulia admins agree to transfer your repo to BioJulia, we will collaborate with you to ensure the code quality, code licensing, documentation, and continuous integration of the package is up to BioJulia standards.
 
 ## Package maintenance status
-BioJulia packages carry a badge in their README stating how actively the package is maintained.
+We recommend that every BioJulia package carries a badge at the top of its README, stating how actively the package is maintained.
 The purpose of the badge is to set expectations: it tells a prospective user whether they can rely on the package, and whether they can expect a response if they open an issue.
 
 There are three statuses:
@@ -97,31 +97,32 @@ A user can expect their issues and pull requests to be answered.
 ### Functional; Maintainer needed
 <!-- badge markdown TBD -->
 
-The package is expected to work, but is currently looking for a maintainer.
-A user cannot be sure that issues and pull requests will be answered, in particular not the more technical ones.
+The package is expected to work, but we are searching for a maintainer.
+A user cannot be sure that issues and pull requests will be answered, especially more technical ones.
 
 ### Deprecated
 <!-- badge markdown TBD -->
 
-The package is no longer modern, either because it does not work on recent Julia releases, or because it has been superseded by other Julia packages.
-New users should generally look elsewhere.
+The package is no longer recommended, either because it does not work on recent Julia releases, or because it has been superseded by other Julia packages.
+If the package has been superseded, we recommend that its README names the package that replaced it.
 
 ### Using the badges
-To use a badge, place it near the top of your package's README, and copy the markdown for the status that applies.
+Copy the markdown for the status that applies, and place it at the top of your package's README, alongside the CI and documentation badges.
+Each badge links to information on what the status means and how to contribute.
 
-To be eligible for a badge, the repository must live in the [BioJulia](https://github.com/BioJulia), [JuliaHealth](https://github.com/JuliaHealth) or [EcoJulia](https://github.com/EcoJulia) GitHub organization, or in another GitHub organization approved by the BioJulia admins — for example a lab organization.
+To be eligible for a badge, the repository must live in the [BioJulia](https://github.com/BioJulia), [JuliaHealth](https://github.com/JuliaHealth) or [EcoJulia](https://github.com/EcoJulia) GitHub organisation, or in another GitHub organisation approved by [the BioJulia admins](#contact-information), for example a lab organisation.
 Personal repositories are not eligible.
-This is so that the status can be updated by someone else if the maintainer becomes unreachable, for whatever reason.
+This ensures that someone else can update the status if the maintainer becomes unreachable.
 
 ### Changing the status of a package
 Anyone can propose a status change by opening an issue or a pull request on the repository in question.
-If a maintainer is around, the change is simply theirs to make.
+If the package has a reachable maintainer, the decision is theirs.
 
 If no maintainer responds:
-* After roughly **one month** of no response, the status may be changed if there is a compelling reason to do so.
-* After **six months** of no response, the status may be changed without any particular reason.
+* After roughly **one month**, the status may be changed if there is a good reason, for example that the package has stopped working on current Julia releases.
+* After **six months**, the status may be changed without any particular reason.
 
 If a maintainer later reappears, the status can always be changed back.
 
 It is not possible to write down rules that cover every case, so please try to work it out in the spirit of the descriptions above.
-If there is disagreement, the decision of the admins of the organization the repository belongs to should be followed, together with the [BioJulia admins](#contact-information) if the repository is outside BioJulia.
+If there is disagreement, the decision of the admins of the organisation the repository belongs to should be followed, together with the BioJulia admins if the repository is outside BioJulia.
